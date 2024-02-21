@@ -1,0 +1,170 @@
+<html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="Asset/index.css">
+            <link rel="icon" href="Asset/cv-icon-clipart-4.jpg">
+            <title>Landing...</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+                integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        </head>
+    <body oncontextmenu="return false" oncopy="return false" oncut="return false" onpaste="return false">
+        <div class="container">
+            <div class="main">
+                <!--banner-->
+                <section class="banner" id="banner">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="Asset/VARIHAA.jpg">
+                        </div>
+                        <h3>Asep Rangga altriana</h3>
+                        <div class="text-run">
+                            <span class="tulisan text-first">I'm</span>
+                            <span class="tulisan text-second"></span>
+                        </div>    
+                        <a href="Asset/cv.pdf" class="btn">Download My CV</a>
+                        <ul class="socialmedia">
+                            <li><a href="https://facebook.com/asep.s.cgr"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/aseprangga17"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://linkedin.com/asep-rangga-altriana"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://instagram.com/trialtriana"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </section>
+                <!--about-->
+                <section class="about adjust" id="about">
+                    <div class="title">
+                        <h2>about me</h2>
+                    </div>
+                    <div class="content">
+                        <div class="textBox">
+                            <p>Lulusan SMKN 2 SUBANG jurusan Rekayasa Perangkat Lunak. Memiliki pengalaman sebagai tim Infrastruktur Teknologi selama 3 bulan saat praktek kerja industri, dan juga memiliki pengalaman sebagai Operatore Warehouse disebuah perusahaan manufacture otomotif.<br><br> Saya memiliki motivasi tinggi untuk mencapai tujuan dan cita cita saya dalam perkembangan teknologi informasi.</p>
+                        </div>
+                        <div class="imgBx">
+                            <img src="Asset/8.jpg">
+                        </div>
+                    </div>
+                </section>
+                <!--about-->
+                <!--Project-->
+                <section class="project adjust" id="project">
+                    <div class="title">
+                        <h2>Daily Posts</h2>
+                        <p>Hanya mengisi waktu luang </p>
+                    </div>
+                    <div class="content">
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="Asset/1.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>project 01</h3>
+                            </div>
+                        </div>
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="Asset/2.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>project 02</h3>
+                            </div>
+                        </div>
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="Asset/3.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>project 03</h3>
+                            </div>
+                        </div>
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="Asset/4.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>project 04</h3>
+                            </div>
+                        </div>
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="Asset/5.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>project 05</h3>
+                            </div>
+                        </div>
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="Asset/6.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>project 06</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                    <section class="contact adjust" id="contact">
+                        <div class="title">
+                            <h2>Let's say Hi</h2>
+                            <p>Tidak menerima 'P' ucapkan salam lalu perkenalkan diri</p>
+                        </div>
+                        <div class="contactForm">
+                            <div class="row">
+                                <input type="text" name="" placeholder="First name">
+                                <input type="text" name="" placeholder="Last name">
+                            </div>
+                            <div class="row">
+                                <input type="text" name="" placeholder="Email address">
+                                <input type="text" name="" placeholder="Mobile No.">
+                            </div>
+                            <div class="row2">
+                                    <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="row2">
+                                    <input type="submit" value="Send">
+                            </div>
+                        </div>
+                    </section>
+                    <div class="copyright">
+                        <p>Copyright © 2021 Asep Rangga</p>
+                    </div>
+                </div>
+            </div>    
+        </div> 
+    
+        <script>
+            let toggle = document.querySelector('.toggle');
+            let topbar = document.querySelector('.topbar');
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+            toggle.onclick = function(){
+                toggle.classList.toggle('active');
+                topbar.classList.toggle('active');
+                navigation.classList.toggle('active');
+                main.classList.toggle('active');
+            } 
+            function toggleMenu(){
+                let navigation = document.querySelector('.navigation');
+                let main = document.querySelector('.main');
+                navigation.classList.remove('active');
+                main.classList.remove('active');
+            }
+        </script>
+        <script>
+            const  tulisan = document.querySelector(".text-second");
+            const textload = () => {
+                setTimeout(() => {
+                    tulisan.textContent = "Just kid from subang";
+                }, 0);
+                setTimeout(() => {
+                    tulisan.textContent = "Ordinary people";
+                }, 4000);
+                setTimeout(() => {
+                    tulisan.textContent = "Human";
+                }, 8000);
+            }
+            textload();
+            setInterval(textload, 12000);   
+        </script>
+    </body>    
+</html>
